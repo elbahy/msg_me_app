@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532098182257",
+    "project_id": "msg-me-app",
+    "storage_bucket": "msg-me-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532098182257:android:551f8efa8ab7e9371cffd0",
+        "android_client_info": {
+          "package_name": "com.example.msg_me_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532098182257-okf6se1eqj464b14hcco3r9hqmd4hqbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoJjlaqK6IFfcgvCL1zggB3ZRP7D1RSMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532098182257-okf6se1eqj464b14hcco3r9hqmd4hqbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

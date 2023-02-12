@@ -4,9 +4,10 @@ import 'package:msg_me_app/widgets/button_custom.dart';
 import 'package:msg_me_app/widgets/text_field.dart';
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
-
+  LoginScreen({super.key});
   static String id = 'LoginScreen';
+  String? email;
+  String? passWord;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,11 +31,22 @@ class LoginScreen extends StatelessWidget {
           SizedBox(
             height: 50,
           ),
-          CustomTextField(text: 'UserName'),
+          CustomTextField(
+              text: 'E-mail',
+              onChanged: (email) {
+                email = email;
+              }),
           SizedBox(height: 15),
-          CustomTextField(text: 'PassWord'),
+          CustomTextField(
+              text: 'PassWord',
+              onChanged: (passWord) {
+                passWord = passWord;
+              }),
           SizedBox(height: 20),
-          CustomButton(text: 'Login'),
+          CustomButton(
+            text: 'Login',
+            onTap: () {},
+          ),
           SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
