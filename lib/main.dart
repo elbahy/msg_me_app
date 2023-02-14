@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:msg_me_app/screens/login_screen.dart';
 import 'package:msg_me_app/screens/register_screen.dart';
+import 'package:msg_me_app/screens/chat.dart';
 
 import 'firebase_options.dart';
 
@@ -22,7 +23,8 @@ class MsgMeApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         LoginScreen.id: (context) => LoginScreen(),
-        RegisterScreen.id: ((context) => RegisterScreen())
+        RegisterScreen.id: (context) => RegisterScreen(),
+        ChatScreen.id: (context) => ChatScreen()
       },
       initialRoute: LoginScreen.id,
     );
