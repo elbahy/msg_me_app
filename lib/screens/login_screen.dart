@@ -33,22 +33,16 @@ class _LoginScreenState extends State<LoginScreen> {
             child: ListView(
                 padding: const EdgeInsets.symmetric(horizontal: 18),
                 children: [
-                  Image.asset(
-                    'assets/images/login.png',
-                    height: 200,
-                  ),
-                  const Text(
-                    'Login',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 40,
-                      fontFamily: 'Bebas',
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 50,
-                  ),
+                  const SizedBox(height: 10),
+                  Image.asset('assets/images/logo3.png', height: 200),
+                  const SizedBox(height: 10),
+                  const Text('Login',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 40,
+                          fontFamily: 'Bebas')),
+                  const SizedBox(height: 50),
                   CustomFormTextField(
                       text: 'E-mail',
                       onChanged: (data) {
