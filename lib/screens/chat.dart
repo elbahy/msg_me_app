@@ -20,7 +20,7 @@ class ChatScreen extends StatelessWidget {
           Expanded(
             child: ListView.builder(
               itemBuilder: (context, index) => ChatBubble(),
-              itemCount: 12,
+              itemCount: 5,
             ),
           ),
           Padding(
